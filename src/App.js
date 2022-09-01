@@ -21,7 +21,7 @@ function App() {
             onClick={onIncrease}
             disabled={disable}
           >
-            +
+            z +
           </button>
           <button
             data-testid="minus-button"

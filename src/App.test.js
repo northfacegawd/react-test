@@ -1,6 +1,10 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import App from "./App";
 
+/**
+ * 실제로는 getByTestId보다 getByRole을 많이 사용함
+ * fireEvent 보다 userEvent를 사용하는것이 더 사용성이 좋음
+ */
 describe("counter test", () => {
   it("the counter starts at 0", () => {
     // App 컴포넌트를 렌더링
